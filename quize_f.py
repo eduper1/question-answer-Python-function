@@ -11,6 +11,9 @@ def is_playing():
     # if True, show " let play!!!"
     if will_play == play:
         print("les tart to play!!!!!!.")
+    # if above condition is not True,
+    # The user don't want to play.
+    # show 'You are done' and quit the game    
     else:
         print("you are done!!!!")
         quit()
