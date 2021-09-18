@@ -6,7 +6,9 @@ def is_playing():
     will_play = input("Do you want to play? ")
     # store "yes" value in play variable
     play = "yes"
-
+    
+    # Compare the will_play variable to play
+    # if True, show " let play!!!"
     if will_play == play:
         print("les tart to play!!!!!!.")
     else:
