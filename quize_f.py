@@ -1,10 +1,13 @@
 #abdullahi, 10, kenya
 
-def quize():
-    v = input("Do you want to play? ")
-    a = "yes"
+# This function is to ask the user wether to play or not?
+def is_playing():
+    # Know what the user want by asking
+    will_play = input("Do you want to play? ")
+    # store "yes" value in play variable
+    play = "yes"
 
-    if v == a:
+    if will_play == play:
         print("les tart to play!!!!!!.")
     else:
         print("you are done!!!!")
