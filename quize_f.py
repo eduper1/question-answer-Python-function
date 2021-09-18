@@ -18,7 +18,7 @@ def is_playing():
         print("you are done!!!!")
         quit()
 
-# Test the function
+# Test is_playing function
 # is_playing()
 
 # Create a function that asks the user some questions,
