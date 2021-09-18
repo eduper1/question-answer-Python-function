@@ -25,3 +25,6 @@ def is_playing():
 # but only if the user want to play
 def quiz():
     is_playing()
+    
+# test quiz function
+quiz()
