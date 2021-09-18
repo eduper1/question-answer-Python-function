@@ -31,6 +31,10 @@ def quiz():
     # True answer
     answer = "moon"
     
+    # Check user's answer with comparing True answer
+    # if the user got it wrong, show 'sorry try again'
+    if question != answer:
+        print(f"Sorry,{question} is not true answer, try again!")
     
 # test quiz function
 quiz()
