@@ -17,3 +17,6 @@ def is_playing():
     else:
         print("you are done!!!!")
         quit()
+
+# Test the function
+is_playing()
