@@ -26,5 +26,11 @@ def is_playing():
 def quiz():
     is_playing()
     
+    # Question one
+    question = input("What is the brightest object in the night sky? ")
+    # True answer
+    answer = "moon"
+    
+    
 # test quiz function
 quiz()
