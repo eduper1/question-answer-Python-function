@@ -36,5 +36,10 @@ def quiz():
     if question != answer:
         print(f"Sorry,{question} is not true answer, try again!")
     
+    # if the above condition is False, 
+    # the user got it right
+    else:
+        print(f"Correct!!! {question} is true.")    
+    
 # test quiz function
 quiz()
