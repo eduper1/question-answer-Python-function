@@ -19,4 +19,9 @@ def is_playing():
         quit()
 
 # Test the function
-is_playing()
+# is_playing()
+
+# Create a function that asks the user some questions,
+# but only if the user want to play
+def quiz():
+    is_playing()
